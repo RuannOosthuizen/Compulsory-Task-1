@@ -95,6 +95,34 @@ section li {
     padding: 0;
 }
 
+/*My skills section style*/
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.right-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hard-skills,
+.soft-skills {
+  width: 48%;
+}
+
+.hard-skills {
+  float: right;
+}
+
+.soft-skills {
+  float: left;
+}
+
 /*Here the project section is styled*/
 #projects ul {
     display: flex;
